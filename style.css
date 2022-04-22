@@ -1,0 +1,42 @@
+body
+{
+  background-color: yellow;
+}
+h1
+{
+    color:rgb(46, 185, 34);
+}
+#show_sketch
+{
+  float: right;
+}
+canvas
+{
+  border: 5px solid green;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 100px;
+  animation-iteration-count: infinite;
+}
+@keyframes example
+{
+  from{
+    box-shadow: 1px 1px 38px yellow;
+  }
+  to{
+    box-shadow: 1px 1px 38px red;
+  }
+}
+
+#Score
+{
+  margin-left: 20px;
+  font-size: 35px;
+  float: left;
+}
+#Timer
+{
+  margin-right: 20px;
+  font-size: 35px;
+  float: right;
+}
